@@ -237,3 +237,4 @@ print(f"{round(positive*100/ant_tilbakemeldinger , 1)}% var positive, totalt {po
 
 pauselinje()
 print("Flott innsats! Neste uke er vi enda bedre!\n\n")
+print("__________________________________________")

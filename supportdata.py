@@ -32,7 +32,7 @@ def konverter_til_epoch_numpy(tidsstreng_array, dato="1970-01-01"):
 
 
 # Leser data fra Excel som Pandas dataframe
-df = pd.read_excel('.venv/support_uke_24.xlsx')
+df = pd.read_excel('support_uke_24.xlsx')
 
 #Konverterer Pandas dataframe til Numpy arrayer
 u_dag = df["Ukedag"].to_numpy()
@@ -236,5 +236,5 @@ print(f"{round(nøytrale*100/ant_tilbakemeldinger , 1)}% var nøytrale, totalt {
 print(f"{round(positive*100/ant_tilbakemeldinger , 1)}% var positive, totalt {positive}")
 
 pauselinje()
-print("Flott innsats! Neste uke er vi enda bedre!\n\n")
-print("__________________________________________")
+print("Flott innsats! Neste uke er vi enda bedre!")
+print("__________________________________________\n\n")
